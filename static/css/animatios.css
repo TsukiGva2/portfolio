@@ -1,0 +1,178 @@
+.presentation {
+    text-align: start;
+    position: relative;
+}
+
+.title {
+    font-size: 24px;
+}
+
+.wave-icon {
+    display: inline-block;
+    animation: wave 2s;
+    transform-origin: 70% 70%;
+}
+
+.wave-icon:hover {
+    display: inline-block;
+    animation: wave 2s infinite;
+    transform-origin: 70% 70%;
+}
+
+@keyframes wave {
+
+    0%,
+    100% {
+        transform: rotate(-20deg);
+    }
+
+    25% {
+        transform: rotate(-20deg);
+    }
+
+    75% {
+        transform: rotate(20deg);
+    }
+}
+
+.linkedin-icon, .git-icon, .instagram-icon, .gmail-icon {
+    cursor: pointer;
+    width: 36px;
+    animation: bounce 1.5s ease;
+
+}
+
+.linkedin-icon:hover {
+
+    animation: wave 1.5s ease infinite;
+}
+
+
+.git-icon:hover {
+
+    animation: wave 1.5s ease infinite;
+}
+.instagram-icon:hover {
+    animation: wave 1.5s ease infinite;
+}
+.gmail-icon:hover {
+    animation: wave 1.5s ease infinite;
+}
+
+
+/* Defina a animação "bounce" */
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-20px);
+    }
+    60% {
+        transform: translateY(-10px);
+    }
+}
+
+.languages li:hover {
+
+    animation: wave 0.5s ease;
+
+}
+
+.social-icon {
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.social-name {
+    position: absolute;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 5px;
+    border-radius: 3px;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: opacity 0.3s ease-in-out;
+}
+
+.icon:hover + .social-name {
+    opacity: 1;
+}
+
+
+
+.transferarea{
+    position: absolute;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 5px;
+    border-radius: 3px;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: opacity 0.3s ease-in-out;
+}
+
+.transferarea:hover {
+    opacity: 1;
+}
+
+.arrow {
+    display: inline-block;
+    animation: moveUpDown 1s linear infinite;
+}
+
+@keyframes moveUpDown {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(20px); /* Mova para baixo */
+    }
+}
+
+.check-animation {
+    color: green;
+    display: inline-block;
+    font-size: 0; /* Define o tamanho inicial para 0 */
+    opacity: 0; /* Define a opacidade inicial para 0 */
+    transform: scale(0); /* Define a escala inicial para 0 */
+    transition: all 0.3s ease; /* Adiciona uma transição suave */
+  }
+  
+  .check-animation.active {
+    font-size: 16px; /* Define o tamanho desejado */
+    opacity: 1; /* Define a opacidade para 1 */
+    transform: scale(1); /* Define a escala para 1 (tamanho original) */
+  }
+  /* Estilos da estrela */
+.fa-regular.fa-star {
+    font-size: 28px;
+    cursor: pointer;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+/* Estilos da estrela marcada */
+.fa-solid.fa-star {
+    font-size: 28px;
+    cursor: pointer;
+    color: #FFD700; /* Cor da estrela marcada (amarelo) */
+    animation: pulse 1s; /* Animação de pulsação */
+}
+
+/* Animação de pulsação */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
