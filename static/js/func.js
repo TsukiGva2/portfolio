@@ -21,8 +21,3 @@ function copyToClipboard(text) {
 
 }
 
-document.querySelector("#floating-button").addEventListener('click', () => {
-    console.log('fss')
-    window.location.href = "../files/cv.php"
-
-})

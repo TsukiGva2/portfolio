@@ -1,24 +1,12 @@
-$(document).ready(function () {
 
 
+document.addEventListener('DOMContentLoaded', function () {
+    const toggleButton = document.querySelector('#theme-toggle-button');
 
-    function hideOverLay() {
-
-        $("#overlay").hide();
-        $("#loader-container").hide();
-        $("#custom-loader").hide();
-
-    }
-
-    function showOverLay() {
-
-        if($("#overlay")) {
-            $("#overlay").show();
-        }
-
-    }
+    toggleButton.addEventListener('click', function () {
+        document.body.classList.toggle('dark');
+    });
+});
 
 
-
-})
 

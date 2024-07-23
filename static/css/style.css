@@ -71,7 +71,7 @@ color: black;
 }
 
 .languages li {
-    margin: 10px; /* Espaçamento entre os itens */
+    margin: 10px; 
     width: 75px;
     height: 50px;
     cursor: pointer;
@@ -79,7 +79,6 @@ color: black;
 
 
 
-/* Estilos para a sobreposição */
 #overlay {
     position: fixed;
     top: 0;
@@ -127,14 +126,14 @@ color: black;
 
 @media (max-width: 767px) {
     .description {
-        max-width: 150%; /* Define a largura máxima para 90% da largura do dispositivo */
-        padding: 2px; /* Reduza o padding para telas menores */
+        max-width: 150%; 
+        padding: 2px; 
         font-size: 12px;
 
     }
     .text-presentation {
 
-        padding: 5px; /* Reduza o padding para telas menores */
+        padding: 5px; 
         font-size: 12px;
         margin: 0;
         line-height: 1.5;
@@ -167,12 +166,12 @@ color: black;
   width: 0;
   height: 2px;
   background-color: black;
-  transition: width 0.3s ease-in-out; /* A transição controla o surgimento da linha */
+  transition: width 0.3s ease-in-out; 
 
 }
 
 .my-name:hover::before {
-  width: 100%; /* Quando o mouse passa sobre o elemento, a linha aparece gradualmente */
+  width: 100%;
 }
 
 .nav-link a{
@@ -257,7 +256,6 @@ color: black;
   padding: 10px;
 }
 
-/* Estilo para quando o conteúdo está visível */
 .floating-field.active #floating-content {
   display: block;
 }
@@ -270,7 +268,6 @@ color: black;
 
 }
 
-/* Estilos para telas pequenas */
 @media (max-width: 767px) {
   .content {
       padding: 10px;
@@ -284,12 +281,10 @@ color: black;
       margin-top: 15px;
   }
 
-  /* Esconda o loader em telas pequenas */
   .load-cont {
       display: none;
   }
 
-  /* Ajuste o tamanho da fonte para telas pequenas */
   .h1 {
       font-size: 24px;
   }
@@ -307,7 +302,6 @@ color: black;
       padding: 10px;
   }
 
-  /* Ajuste o tamanho do botão para telas pequenas */
   .btn {
       padding: 8px 16px;
   }
