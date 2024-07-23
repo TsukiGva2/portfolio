@@ -131,7 +131,7 @@ $text = new Language($lang);
 
 <div class="col-sm">
         <div class="floating-field">
-            <a href="<?= SITE ?>/files/cv.php" id="floating-button" class="btn"> <?= $text->getText('download_cv') ?> <i class="fa-solid fa-file-arrow-down" style="margin-left:5px;"></i></a>
+        <a href="<?= SITE ?>/files/cv.php" id="floating-button" class="btn"> <?= $text->getText('download_cv') ?> <i class="fa-solid fa-file-arrow-down" style="margin-left:5px;"></i></a>
             <div id="floating-content"></div>
         </div>
     </div>

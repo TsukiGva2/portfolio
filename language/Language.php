@@ -31,7 +31,7 @@ class Language
 
             $this->text["about_intro"] = '<h3 class="text-center mb-2">Hello! I\'m <strong class="my-name">Kerlon Santana Fernandes</strong></h3>';
             $this->text["about_text"] = '<span style="text-align: justify;" class="whoiam mt-2 lh-lg">I am 18 years old and a Backend developer with over two years of experience in programming. I love anything related to technology and programming. I am constantly seeking learning opportunities to stand out in the market. I intend to graduate in the field to become a more complete and professional developer.</span>';
-            $this->text["download_cv"] = '<button id="floating-button" class="btn">Download CV <i class="fa-solid fa-file-arrow-down" style="margin-left:5px;"></i></button>';
+            $this->text["download_cv"] = 'Download CV';
             $this->text['mytempo_project_text'] = 'A system for timing athletes, displaying the results obtained.';
             $this->text['suainscricao_project_text'] = 'A system for registering athletes for sporting events.';
 
@@ -56,7 +56,7 @@ class Language
             $this->text["about_title"] = "QUEM SOU EU ?";
             $this->text["about_intro"] = '<h3 class="text-center mb-2">Olá! Sou <strong class="my-name">Kerlon Santana Fernandes</strong></h3>';
             $this->text["about_text"] = '<span style="text-align: justify;" class="whoiam mt-2 lh-lg">Tenho 18 anos e sou desenvolvedor Backend, com mais de dois anos de experiência em programação. Amo qualquer coisa relacionada a tecnologia e programação. Estou em constante busca de aprendizado para me destacar no mercado. Pretendo me formar na área para me tornar um desenvolvedor mais completo e profissional.</span>';
-            $this->text["download_cv"] = '<button id="floating-button" class="btn">Baixar CV <i class="fa-solid fa-file-arrow-down" style="margin-left:5px;"></i></button>';
+            $this->text["download_cv"] = 'Baixar Currículo';
 
             $this->text['mytempo_project_text'] = 'Um sistema para inscrição de atletas em eventos esportivos.';
             $this->text['suainscricao_project_text'] = 'Um sistema para a cronometragem de atletas, exibindo os resultados obtidos.';
